@@ -1,0 +1,30 @@
+Sep 21, 2023 9:53:06 AM utils.Base openBrowser
+INFO: Browser Launched
+Sep 21, 2023 9:53:07 AM utils.Base openBrowser
+INFO: Browser Loaded the URL
+Sep 21, 2023 9:53:09 AM pages.homepage <init>
+INFO: 1234
+Sep 21, 2023 9:53:09 AM pages.homepage Valid_Login_TC
+INFO: qwert
+Sep 21, 2023 9:53:09 AM pages.homepage Valid_Login_TC
+INFO: Chrome
+Sep 21, 2023 9:53:10 AM utils.LoggerHandler loginfo
+INFO: This is a info message.
+Sep 21, 2023 9:53:10 AM utils.LoggerHandler logSevere
+SEVERE: This is a SEVERE message.
+Sep 21, 2023 9:53:10 AM utils.LoggerHandler logWarning
+WARNING: This is a WARNING message.
+Sep 21, 2023 9:53:10 AM utils.LoggerHandler logConfig
+CONFIG: This is a CONFIG message.
+Sep 21, 2023 9:53:10 AM utils.LoggerHandler logdebug
+FINE: Thus is Debug message
+Sep 21, 2023 9:53:10 AM utils.LoggerHandler logFine
+FINE: This is a FINE message.
+Sep 21, 2023 9:53:10 AM utils.LoggerHandler logFiner
+FINER: This is a FINER message.
+Sep 21, 2023 9:53:10 AM utils.LoggerHandler logFinest
+FINEST: This is a FINEST message.
+Sep 21, 2023 9:53:10 AM utils.LoggerHandler logerror
+SEVERE: This is error meessage
+Sep 21, 2023 9:53:19 AM runner.Testcase3 afterMethod
+INFO: Browser closed
