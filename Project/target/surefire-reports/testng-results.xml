@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="3" passed="0" failed="0" skipped="3">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-09T14:16:24 UTC" name="Surefire suite" finished-at="2023-10-09T14:16:25 UTC" duration-ms="932">
+  <suite started-at="2023-10-09T18:23:55 UTC" name="Surefire suite" finished-at="2023-10-09T18:23:55 UTC" duration-ms="706">
     <groups>
     </groups>
-    <test started-at="2023-10-09T14:16:24 UTC" name="Surefire test" finished-at="2023-10-09T14:16:25 UTC" duration-ms="932">
+    <test started-at="2023-10-09T18:23:55 UTC" name="Surefire test" finished-at="2023-10-09T18:23:55 UTC" duration-ms="706">
       <class name="runner.Testcase1">
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:runner.Testcase1@247bddad]" started-at="2023-10-09T14:16:25 UTC" name="beforeMethod" finished-at="2023-10-09T14:16:25 UTC" duration-ms="32" status="FAIL">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:runner.Testcase1@247bddad]" started-at="2023-10-09T18:23:55 UTC" name="beforeMethod" finished-at="2023-10-09T18:23:55 UTC" duration-ms="31" status="FAIL">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
@@ -125,7 +125,7 @@ at java.base/java.lang.Thread.run(Thread.java:829)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="TC_001()[pri:1, instance:runner.Testcase1@247bddad]" started-at="2023-10-09T14:16:25 UTC" name="TC_001" finished-at="2023-10-09T14:16:25 UTC" duration-ms="0" status="SKIP">
+        <test-method signature="TC_001()[pri:1, instance:runner.Testcase1@247bddad]" started-at="2023-10-09T18:23:55 UTC" name="TC_001" finished-at="2023-10-09T18:23:55 UTC" duration-ms="0" status="SKIP">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
@@ -243,13 +243,13 @@ at java.base/java.lang.Thread.run(Thread.java:829)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_001 -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:runner.Testcase1@247bddad]" started-at="2023-10-09T14:16:25 UTC" name="afterMethod" finished-at="2023-10-09T14:16:25 UTC" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:runner.Testcase1@247bddad]" started-at="2023-10-09T18:23:55 UTC" name="afterMethod" finished-at="2023-10-09T18:23:55 UTC" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
       </class> <!-- runner.Testcase1 -->
       <class name="runner.Testcase2">
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:runner.Testcase2@7586beff]" started-at="2023-10-09T14:16:24 UTC" name="beforeMethod" finished-at="2023-10-09T14:16:25 UTC" duration-ms="778" status="FAIL">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:runner.Testcase2@7586beff]" started-at="2023-10-09T18:23:55 UTC" name="beforeMethod" finished-at="2023-10-09T18:23:55 UTC" duration-ms="579" status="FAIL">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
@@ -367,7 +367,7 @@ at java.base/java.lang.Thread.run(Thread.java:829)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="TC_002()[pri:2, instance:runner.Testcase2@7586beff]" started-at="2023-10-09T14:16:25 UTC" name="TC_002" finished-at="2023-10-09T14:16:25 UTC" duration-ms="0" status="SKIP">
+        <test-method signature="TC_002()[pri:2, instance:runner.Testcase2@7586beff]" started-at="2023-10-09T18:23:55 UTC" name="TC_002" finished-at="2023-10-09T18:23:55 UTC" duration-ms="0" status="SKIP">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
@@ -485,13 +485,13 @@ at java.base/java.lang.Thread.run(Thread.java:829)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_002 -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:runner.Testcase2@7586beff]" started-at="2023-10-09T14:16:25 UTC" name="afterMethod" finished-at="2023-10-09T14:16:25 UTC" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:runner.Testcase2@7586beff]" started-at="2023-10-09T18:23:55 UTC" name="afterMethod" finished-at="2023-10-09T18:23:55 UTC" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
       </class> <!-- runner.Testcase2 -->
       <class name="runner.Testcase3">
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:runner.Testcase3@544fa968]" started-at="2023-10-09T14:16:25 UTC" name="beforeMethod" finished-at="2023-10-09T14:16:25 UTC" duration-ms="37" status="FAIL">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:runner.Testcase3@544fa968]" started-at="2023-10-09T18:23:55 UTC" name="beforeMethod" finished-at="2023-10-09T18:23:55 UTC" duration-ms="30" status="FAIL">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
@@ -609,7 +609,7 @@ at java.base/java.lang.Thread.run(Thread.java:829)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="TC_003()[pri:3, instance:runner.Testcase3@544fa968]" started-at="2023-10-09T14:16:25 UTC" name="TC_003" finished-at="2023-10-09T14:16:25 UTC" duration-ms="0" status="SKIP">
+        <test-method signature="TC_003()[pri:3, instance:runner.Testcase3@544fa968]" started-at="2023-10-09T18:23:55 UTC" name="TC_003" finished-at="2023-10-09T18:23:55 UTC" duration-ms="0" status="SKIP">
           <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
               <![CDATA[Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
@@ -727,7 +727,7 @@ at java.base/java.lang.Thread.run(Thread.java:829)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_003 -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:runner.Testcase3@544fa968]" started-at="2023-10-09T14:16:25 UTC" name="afterMethod" finished-at="2023-10-09T14:16:25 UTC" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:runner.Testcase3@544fa968]" started-at="2023-10-09T18:23:55 UTC" name="afterMethod" finished-at="2023-10-09T18:23:55 UTC" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
