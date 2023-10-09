@@ -1,4 +1,52 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 34.125 s - in TestSuite
+Tests run: 9, Failures: 3, Errors: 0, Skipped: 6, Time elapsed: 1.593 s <<< FAILURE! - in TestSuite
+beforeMethod(runner.Testcase2)  Time elapsed: 1.353 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'bcedbeeced305410173dffcbbfbdaafthree-0', ip: '10.80.3.2'
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.107+', java.version: '11.0.20'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome}]}]
+Capabilities {browserName: chrome}
+	at runner.Testcase2.beforeMethod(Testcase2.java:39)
+Caused by: java.io.UncheckedIOException: java.net.ConnectException: Connection refused: /34.85.201.58:4478
+	at runner.Testcase2.beforeMethod(Testcase2.java:39)
+Caused by: java.net.ConnectException: Connection refused: /34.85.201.58:4478
+Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: /34.85.201.58:4478
+Caused by: java.net.ConnectException: Connection refused
+
+beforeMethod(runner.Testcase3)  Time elapsed: 0.044 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'bcedbeeced305410173dffcbbfbdaafthree-0', ip: '10.80.3.2'
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.107+', java.version: '11.0.20'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome}]}]
+Capabilities {browserName: chrome}
+	at runner.Testcase3.beforeMethod(Testcase3.java:42)
+Caused by: java.io.UncheckedIOException: java.net.ConnectException: Connection refused: /34.85.201.58:4478
+	at runner.Testcase3.beforeMethod(Testcase3.java:42)
+Caused by: java.net.ConnectException: Connection refused: /34.85.201.58:4478
+Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: /34.85.201.58:4478
+Caused by: java.net.ConnectException: Connection refused
+
+beforeMethod(runner.Testcase1)  Time elapsed: 0.035 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'bcedbeeced305410173dffcbbfbdaafthree-0', ip: '10.80.3.2'
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.107+', java.version: '11.0.20'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome}]}]
+Capabilities {browserName: chrome}
+	at runner.Testcase1.beforeMethod(Testcase1.java:42)
+Caused by: java.io.UncheckedIOException: java.net.ConnectException: Connection refused: /34.85.201.58:4478
+	at runner.Testcase1.beforeMethod(Testcase1.java:42)
+Caused by: java.net.ConnectException: Connection refused: /34.85.201.58:4478
+Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: /34.85.201.58:4478
+Caused by: java.net.ConnectException: Connection refused
+
